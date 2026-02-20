@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Contact Forerunner Contracting." />
+  <title>Contact | Forerunner Contracting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <header class="nav nav-simple">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-text">
+          <span class="brand-name">Forerunner Contracting</span>
+          <span class="brand-sub">Contact</span>
+        </span>
+      </a>
+
+      <nav class="nav-links nav-links-simple" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="capabilities.html">Capabilities</a>
+        <a class="btn btn-outline" href="assets/pdf/Forerunner-Capability-Statement.pdf" target="_blank" rel="noopener">Open PDF</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-head">
+        <h1>Contact</h1>
+        <p class="muted">Request availability, scope discussion, or teaming conversations.</p>
+      </div>
+
+      <div class="grid-2">
+        <section class="card">
+          <h2 class="h3">Reach Out</h2>
+          <div class="kv">
+            <div class="kv-item">
+              <div class="kv-k">Email</div>
+              <div class="kv-v"><a class="link" href="mailto:you@yourdomain.com">you@yourdomain.com</a></div>
+            </div>
+            <div class="kv-item">
+              <div class="kv-k">Phone</div>
+              <div class="kv-v"><a class="link" href="tel:+15555555555">+1 (555) 555-5555</a></div>
+            </div>
+            <div class="kv-item">
+              <div class="kv-k">Availability</div>
+              <div class="kv-v">Weekdays + weekends (by appointment)</div>
+            </div>
+          </div>
+
+          <div class="divider"></div>
+
+          <h3 class="h4">Preferred Info to Include</h3>
+          <ul class="bullets">
+            <li>Agency / organization</li>
+            <li>Scope summary</li>
+            <li>Period of performance</li>
+            <li>Required deliverables</li>
+            <li>Security / confidentiality requirements (if any)</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h2 class="h3">Quick Message (Optional Form)</h2>
+          <p class="muted">
+            If you want a working form, create a Formspree form and replace the <code>action</code> URL below.
+          </p>
+
+          <!-- Replace action with your Formspree endpoint -->
+          <form class="form" action="https://formspree.io/f/yourFormID" method="POST">
+            <label>
+              <span>Name</span>
+              <input name="name" required placeholder="Your name" />
+            </label>
+
+            <label>
+              <span>Email</span>
+              <input name="email" type="email" required placeholder="you@agency.gov" />
+            </label>
+
+            <label>
+              <span>Subject</span>
+              <input name="subject" required placeholder="Scope / teaming / availability" />
+            </label>
+
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="6" required placeholder="Brief scope, timeline, and deliverables..."></textarea>
+            </label>
+
+            <button class="btn btn-primary" type="submit">Send</button>
+            <p class="small muted">No marketing fluff. Straight scope and outcomes.</p>
+          </form>
+        </section>
+      </div>
+
+      <div class="callout">
+        <div>
+          <h3>Capability Statement</h3>
+          <p class="muted">Attach this to emails and include it in your SAM / capability outreach.</p>
+        </div>
+        <div class="callout-actions">
+          <a class="btn btn-primary" href="assets/pdf/Forerunner-Capability-Statement.pdf" target="_blank" rel="noopener">Open PDF</a>
+          <a class="btn btn-outline" href="capabilities.html">View Web Version</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer footer-simple">
+    <div class="container footer-grid">
+      <div class="footer-muted">© <span id="year"></span> Forerunner Contracting</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="capabilities.html">Capabilities</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
